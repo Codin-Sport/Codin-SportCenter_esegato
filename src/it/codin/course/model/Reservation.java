@@ -111,9 +111,9 @@ public class Reservation
   @Override
   public String toString()
   {
-    return "Reservation [field:" + field + " , " + customer + ", createReservationDate=" + createReservationDate
-        + ", updateReservationDate: " + updateReservationDate + ", startEventDate: " + startEventDate + ", endEventDate="
-        + endEventDate + "]";
+    return "Reservation [field:" + field + " , " + customer + ", createReservationDate: " + createReservationDate.toString()
+        + ", updateReservationDate: " + updateReservationDate.toString() + ", startEventDate: " + startEventDate + ", endEventDate="
+        + endEventDate.toString() + "]";
   }   
   
   
