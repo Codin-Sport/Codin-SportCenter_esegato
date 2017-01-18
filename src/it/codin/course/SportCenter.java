@@ -41,7 +41,7 @@ public class SportCenter
     System.out.println("Utenti registrati: ");
     for (Customer c : customersList)
     {
-      System.out.printf("%s\n",c);
+      System.out.println(c.toString());
     }
     
     //3 Creare una prenotazione
@@ -58,10 +58,10 @@ public class SportCenter
     
     //3a Stampare una lista di utenti
     System.out.println();
-    System.out.println("Utenti registrati: ");
+    System.out.println("Registrazioni attive: ");
     for (Reservation r : reservationsList)
     {
-      System.out.printf("%s\n",r);
+      System.out.println(r.toString());
     }
     
     //ToDo

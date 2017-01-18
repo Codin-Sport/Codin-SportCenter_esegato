@@ -106,5 +106,15 @@ public class Reservation
   public LocalDateTime getCreateReservationDate()
   {
     return createReservationDate;
+  }
+
+  @Override
+  public String toString()
+  {
+    return "Reservation [field:" + field + " , " + customer + ", createReservationDate=" + createReservationDate
+        + ", updateReservationDate: " + updateReservationDate + ", startEventDate: " + startEventDate + ", endEventDate="
+        + endEventDate + "]";
   }   
+  
+  
 }
